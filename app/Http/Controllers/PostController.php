@@ -194,7 +194,7 @@ class PostController extends Controller
         $post = DB::table('posts')
         ->where('title', 'like', "%" . $search . "%")
         ->paginate();
-        return view('posts.admin', compact('post'));
+        return view('tampil/search', compact('post'));
     }
 
 }

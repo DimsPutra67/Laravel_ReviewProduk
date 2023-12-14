@@ -64,8 +64,8 @@ placeholder="Masukkan Konten Post">{{ old('content') }}</textarea>
 </div>
 @enderror
 </div>
-<button type="submit" class="btn btn-md btnprimary">SIMPAN</button>
-<button type="reset" class="btn btn-md btnwarning">RESET</button>
+<button type="submit" class="btn btn-primary">SIMPAN</button> 
+<button type="reset" class="btn btn-warning">RESET</button> 
 </form>
 </div>
 </div>

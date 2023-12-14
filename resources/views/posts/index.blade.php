@@ -142,12 +142,12 @@ button[type="submit"]{
       <div class="main">
       <div class="card border-0 shadow-sm rounded">
                 <div class="card-body">
-                    <a href="{{ route('posts.create') }}" class="btn btn-md btn-success mb-3">TAMBAH</a>
+                  <a href="{{ route('posts.create') }}" class="btn btn-md btn-success mb-3">TAMBAH</a>
+                <form action='tampil/search' method="GET">
                     <table class="table table-bordered">
-                    <input name="search" style="margin-left:34px;width:75%;height:36px;"
-                                    class= "form-control me-1" type="search" placeholder="search" aria-label="Search">
-    
-                       
+                    <input type="text" style="margin-left:34px;width:70%;height:36px;" name="search" placeholder="search">
+                    <button style="margin-left:10px;height:40px;" class="btn btn-outline-success" type="sumbit">Serach</button>
+                </form>  
                             <tr>
                                 <th scope="col">GAMBAR</th>
                                 <th scope="col">JUDUL</th>

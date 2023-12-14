@@ -16,6 +16,7 @@ use App\Http\Controllers\HomeController;
 
 Route::resource('/posts',\App\Http\Controllers\PostController::class);
 
+Route::get('tampil/search',[PostController::class, 'search']);
 
 Route::get('/guru',function () {
      return view('guru');
